@@ -20,6 +20,16 @@ body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
 }
+.wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 28px;
+}
+
+section {
+    padding: 60px 0;
+    border-bottom: 1px solid var(--line);
+}
 
 h1, h2, h3 {
     font-family: 'Space Grotesk', sans-serif;

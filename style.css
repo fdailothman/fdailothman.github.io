@@ -35,3 +35,35 @@ h1, h2, h3 {
     font-family: 'Space Grotesk', sans-serif;
     letter-spacing: -0.01em;
 }
+article {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 22px;
+    margin-bottom: 18px;
+    transition: border-color 0.2s, transform 0.2s;
+}
+
+article:hover {
+    border-color: var(--teal);
+    transform: translateY(-3px);
+}
+
+article img {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-top: 12px;
+}
+
+article a {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 12px;
+    color: var(--teal);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+article a:hover {
+    text-decoration: underline;
+}

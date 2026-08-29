@@ -194,3 +194,21 @@ nav a:hover {
     border: 1px solid var(--teal);
     color: var(--teal);
 }
+nav a {
+    position: relative;
+}
+
+.underline {
+    position: absolute;
+    bottom: -17px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--teal);
+    transition: width 0.2s;
+    display: block;
+}
+
+nav a:hover .underline {
+    width: 100%;
+}

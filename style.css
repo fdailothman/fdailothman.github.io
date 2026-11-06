@@ -229,3 +229,16 @@ nav a:hover .underline {
 @media (max-width: 700px) {
   .profil-grid { flex-direction: column; text-align: center; }
 }
+.badge {
+    display: inline-block;
+    padding: 3px 10px;
+    margin-bottom: 8px;
+    border: 1px solid var(--amber);
+    border-radius: 999px;
+    color: var(--amber);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.coming { border-style: dashed; }
